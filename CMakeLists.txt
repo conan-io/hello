@@ -11,5 +11,5 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_RELEASE ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY})
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY_DEBUG ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY})
 
 add_library(hello hello.cpp)
-add_executable()(greet main.cpp)
+add_executable(greet main.cpp)
 target_link_libraries(greet hello)
